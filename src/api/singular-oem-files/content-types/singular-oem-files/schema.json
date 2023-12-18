@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plural_oem_files",
+  "info": {
+    "singularName": "singular-oem-files",
+    "pluralName": "plural-oem-files",
+    "displayName": "OEM FILES",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "file": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Name": {
+      "type": "string"
+    }
+  }
+}

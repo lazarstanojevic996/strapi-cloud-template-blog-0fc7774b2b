@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plural_oem_files_2s",
+  "info": {
+    "singularName": "singular-oem-files-2",
+    "pluralName": "plural-oem-files-2s",
+    "displayName": "OEM FILES 2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "file": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "Test": {
+      "displayName": "Test",
+      "type": "component",
+      "repeatable": true,
+      "component": "test.test"
+    }
+  }
+}
